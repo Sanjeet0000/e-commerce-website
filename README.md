@@ -12,7 +12,7 @@
 
 ## Store Page
 ### on PC
-![on pc](https://github.com/Sanjeet0000/e-commerce-website/blob/main/public/assets/images/Screen%20Captures/homePageMobile.jpg)
+![on pc](https://github.com/Sanjeet0000/e-commerce-website/blob/main/public/assets/images/Screen%20Captures/storePagePC.jpg)
 
 ### on Mobile
 ![on mobile](https://github.com/Sanjeet0000/e-commerce-website/blob/main/public/assets/images/Screen%20Captures/storePageMobile.jpg)
