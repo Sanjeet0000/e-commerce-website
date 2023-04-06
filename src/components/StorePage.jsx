@@ -182,12 +182,12 @@ export default function StorePage() {
         </div>
 
         <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled"><Link class="page-link" tabindex="-1">Previous</Link></li>
-                <li class="page-item disabled"><Link class="page-link">1</Link></li>
-                <li class="page-item disabled"><Link class="page-link">2</Link></li>
-                <li class="page-item disabled"><Link class="page-link">3</Link></li>
-                <li class="page-item disabled"><Link class="page-link">Next</Link></li>
+            <ul className="pagination justify-content-center">
+                <li className="page-item disabled"><Link className="page-link" tabIndex="-1">Previous</Link></li>
+                <li className="page-item disabled"><Link className="page-link">1</Link></li>
+                <li className="page-item disabled"><Link className="page-link">2</Link></li>
+                <li className="page-item disabled"><Link className="page-link">3</Link></li>
+                <li className="page-item disabled"><Link className="page-link">Next</Link></li>
             </ul>
         </nav>
         </> 

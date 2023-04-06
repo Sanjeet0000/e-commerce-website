@@ -77,12 +77,19 @@
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1360px) {
     .StorePage{
         display: none;
     }
     #content-list{
         justify-content: center !important;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #content-list{
+    min-width: 850px;
+    align-self: center;
     }
 }
 
