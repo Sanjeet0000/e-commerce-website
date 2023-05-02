@@ -8,6 +8,7 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout'
 import StorePage from './components/StorePage';
 import NotFound from './components/Error404';
+import OrderSummary from './components/OrderSummary';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
                 <Route exact path="/products/:id" element={<ProductDetail/>} />
                 <Route exact path="/store" element={<StorePage/>}/>
                 <Route exact path="/cart" element={<Cart/>} />
-                <Route exact path="/checkout" element={<Checkout/>} />
+                <Route exact path="/checkout" element={<Checkout/>} />   
+                <Route exact path="/ordersummary" element={<OrderSummary/>} />
                 <Route exact path="*" element={<NotFound/>} />
             </Routes>
         <Footer/>
